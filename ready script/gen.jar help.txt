@@ -1,0 +1,7 @@
+gen.jar art_type imagePath imageName imageExt ColorDifference LineSkip
+art_type - 256Colors, 16Colors, Grayscale
+imagePath - only path(e.g. /home/images, ./images)
+imageName - only name(e.g. image1, cuteimage)
+imageExt - only extention(e.g. jpg, jpeg, bmp), recommended images without a transparent background.
+ColorDifference - "a" - auto set(slower), about 33 for 256 colors, about 43 for 16 colors, about 82 for grayscale. If there will be less than actually there will be some errors, so if you don’t know the number you need, set automatic mode. The required number only for the current image and mode is displayed during generation in auto mode. From 1 to 150.
+LineSkip - for example, with 2 every second line will be taken starting from the first. If not specified, it is considered equal to 1. From 1 to 150.
