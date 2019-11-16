@@ -30,3 +30,11 @@ Turn any of your images into bash art.
 ./drawArt.sh ./images/1.jpg 16colors
 ./drawArt.sh ./images/1.jpg 256colors
 ```
+## Wrong CDiff number effect
+`./drawArt.sh ./images/wrongCDiff.jpg 256colors 19 3`(CDiff num is too small)
+![Probably stinks](https://github.com/Plugway/Bash-ascii-art/blob/master/mmfiles/wrongCDiff.jpg)
+
+`./drawArt.sh ./images/rightCDiff.jpg 256colors a 3`(CDiff num is right)
+![Probably stonks](https://github.com/Plugway/Bash-ascii-art/blob/master/mmfiles/rightCDiff.jpg)
+## Small tips
+1. You can change font size in terminal with "ctrl -", "ctrl +" and "ctrl + 0".
